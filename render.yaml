@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: yaha pe apni GitHub repojerty ka name daalo 
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn main:main
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: SECRET_KEY
+        generateValue: true
+    autoDeploy: true
