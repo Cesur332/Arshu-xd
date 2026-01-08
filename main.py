@@ -272,7 +272,7 @@ HTML_TEMPLATE = '''
 <!DOCTYPE html>
 <html>
 <head>
-    <title>🔥 SUKUNA MULTI-USER MESSAGE SENDER</title>
+    <title>🔥 ARNAV MESSAGESER MESSAGE SENDER</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -405,7 +405,7 @@ font-size: 14px;
     ''' + ANIMATED_BACKGROUND + '''
     
     <div class="container">
-        <h2 class="class mb-4" style="color:#ff4444; text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);">🔥 SUKUNA MESSAGE SERVER</hSERVERRVER
+        <h2 class="class mb-4" style="color:#ff4444; text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);">🔥 ARNAV MESSAGE SERVER</hSERVERRVER
 <div class="user-badge">👤 User ID: {{ user_id[:12] }}...</div>
         
         <ul class="nav nav-tabs mb-4">
@@ -814,3 +814,4 @@ if name == 'main':
     print("✅ 24/7 nonstop operation guaranteed")
     print("✅ Secure - Users can only access their own data")
     app.run(host='0.0.0.0', port=5000, debug=False)
+SUKUNA
